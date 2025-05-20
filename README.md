@@ -25,7 +25,7 @@ cd audio-stego-rsa
 python -m venv venv
 ```
 
-### Aktifkan virtual environment:
+### 3. Aktifkan virtual environment:
 
 Windows:
 
@@ -39,64 +39,64 @@ macOS/Linux:
 source venv/bin/activate
 ```
 
-### 3. Install Dependensi
+### 4. Install Dependensi
 
 ```bash
 pip install -r requirements.txt
 ```
 
-📌 Cara Menggunakan
-🔏 Menyisipkan dan Mengenkripsi Pesan
-Pastikan file audio RSA/input/c.wav tersedia.
-
-Jalankan program:
+## 📌 Cara Menggunakan
+### 🔏 Menyisipkan dan Mengenkripsi Pesan
+1. Pastikan file audio `RSA/input/c.wav` tersedia.
+2. Jalankan program:
 
 ```bash
 python main.py
 ```
 
-Pilih:
+3. Pilih opsi:
 
+```bash
 1. Enkripsi & Sisipkan
-Masukkan pesan yang ingin disembunyikan.
+```
 
-Hasilnya akan muncul sebagai RSA/output1/stego.wav.
+4. Masukkan pesan yang ingin disembunyikan.
+5. File hasil akan tersimpan di `RSA/output1/stego.wav`.
 
-🔓 Mengekstrak dan Mendekripsi Pesan
-Pastikan file RSA/output1/stego.wav sudah ada.
-
-Jalankan kembali program:
+## 🔓 Mengekstrak dan Mendekripsi Pesan
+1. Pastikan file `RSA/output1/stego.wav` sudah ada.
+2. Jalankan kembali program:
 
 ```bash
 python main.py
 ```
 
-Pilih:
+3. Pilih opsi:
 
-2. Ekstrak & Dekripsi
-Pesan akan ditampilkan di terminal setelah berhasil didekripsi.
+```bash
+Ekstrak & Dekripsi
+```
 
-⚠️ Catatan
-Gunakan file WAV mono agar proses lebih akurat.
-
-Panjang file audio harus cukup untuk menampung pesan.
-
-Jika kunci belum ada, program akan otomatis membuatnya.
-
+4. Pesan akan ditampilkan di terminal setelah berhasil diekstraksi & didekripsi.
+---
+## ⚠️ Catatan
+- Gunakan file WAV mono agar proses lebih akurat.
+- Panjang file audio harus cukup untuk menampung pesan.
+- Jika kunci belum ada, program akan otomatis membuatnya.
+---
 🛠 Kebutuhan
-Terdapat pada requirements.txt:
-
+Dependensi pada `requirements.txt`:
 - numpy
 - scipy
 - pycryptodome
 - soundfile
-
+---
 📬 Lisensi
 MIT – bebas digunakan dan dimodifikasi.
-
+---
 🤝 Terima Kasih
 Dibuat dengan ❤️ menggunakan:
-
 - PyCryptodome
 - SciPy DCT
 - SoundFile
+---
