@@ -44,7 +44,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ## 📌 Cara Menggunakan
 ### 🔏 Menyisipkan dan Mengenkripsi Pesan
 1. Pastikan file audio `RSA/input/c.wav` tersedia.
@@ -62,7 +62,7 @@ python main.py
 
 4. Masukkan pesan yang ingin disembunyikan.
 5. File hasil akan tersimpan di `RSA/output1/stego.wav`.
-
+---
 ## 🔓 Mengekstrak dan Mendekripsi Pesan
 1. Pastikan file `RSA/output1/stego.wav` sudah ada.
 2. Jalankan kembali program:
@@ -93,6 +93,7 @@ Dependensi pada `requirements.txt`:
 ---
 ## 📬 Lisensi
 MIT – bebas digunakan dan dimodifikasi.
+
 ---
 ## 🤝 Terima Kasih
 Dibuat dengan ❤️ menggunakan:
