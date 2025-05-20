@@ -9,8 +9,8 @@ env/
 *.env
 
 # File audio hasil runtime
-audio/output_stego.wav
-audio/*.wav
+RSA/input/*.wav
+RSA/output1/*.wav
 
 # File key sensitif (jika kamu tidak ingin upload private key)
 keys/private_key.pem
