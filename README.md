@@ -84,17 +84,17 @@ Ekstrak & Dekripsi
 - Panjang file audio harus cukup untuk menampung pesan.
 - Jika kunci belum ada, program akan otomatis membuatnya.
 ---
-🛠 Kebutuhan
+## 🛠 Kebutuhan
 Dependensi pada `requirements.txt`:
 - numpy
 - scipy
 - pycryptodome
 - soundfile
 ---
-📬 Lisensi
+## 📬 Lisensi
 MIT – bebas digunakan dan dimodifikasi.
 ---
-🤝 Terima Kasih
+## 🤝 Terima Kasih
 Dibuat dengan ❤️ menggunakan:
 - PyCryptodome
 - SciPy DCT
