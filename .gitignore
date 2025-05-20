@@ -1,0 +1,26 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# File audio hasil runtime
+audio/output_stego.wav
+audio/*.wav
+
+# File key sensitif (jika kamu tidak ingin upload private key)
+keys/private_key.pem
+
+# File log / debug
+*.log
+
+# File editor dan OS (opsional tapi umum)
+.DS_Store
+*.swp
+*.swo
+*.bak
+Thumbs.db
