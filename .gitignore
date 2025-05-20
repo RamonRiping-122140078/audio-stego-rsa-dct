@@ -1,24 +1,40 @@
-# Bytecode Python
+# =========================
+# Python bytecode & cache
+# =========================
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual environment
+# =========================
+# Virtual environments
+# =========================
 venv/
 env/
+.venv/
+.ENV/
 *.env
 
-# File audio hasil runtime
+# =========================
+# File audio (runtime input/output)
+# =========================
 RSA/input/*.wav
 RSA/output1/*.wav
 
-# File key sensitif (jika kamu tidak ingin upload private key)
-keys/private_key.pem
+# =========================
+# Public/Private Key Files
+# =========================
+RSA/output1/private.pem
+RSA/output1/public.pem
+*.pem
 
-# File log / debug
+# =========================
+# Log & debug files
+# =========================
 *.log
 
-# File editor dan OS (opsional tapi umum)
+# =========================
+# OS & Editor junk
+# =========================
 .DS_Store
 *.swp
 *.swo
