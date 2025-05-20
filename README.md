@@ -80,7 +80,8 @@ Ekstrak & Dekripsi
 4. Pesan akan ditampilkan di terminal setelah berhasil diekstraksi & didekripsi.
 ---
 ## ⚠️ Catatan
-- Gunakan file WAV mono agar proses lebih akurat.
+- Jika tidak memiliki file audio, anda tetap bisa menjalankannya tanpa mengunduh file audio dari luar karena audio akan digenerate dari program.
+- Jika ingin menggunakan audio dari luar, gunakan file WAV mono agar proses lebih akurat.
 - Panjang file audio harus cukup untuk menampung pesan.
 - Jika kunci belum ada, program akan otomatis membuatnya.
 ---
