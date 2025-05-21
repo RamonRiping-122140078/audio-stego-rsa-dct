@@ -29,7 +29,7 @@ pub_key = key.publickey()
 
 # Test
 plain1 = "Halo, ini pesan rahasia!"
-plain2 = "Halo, ini pesan rahasia!"
+plain2 = "Hali, ini pesan rahasia!" # One character changed
 
 cipher = PKCS1_OAEP.new(pub_key)
 ct = cipher.encrypt(plain1.encode())
